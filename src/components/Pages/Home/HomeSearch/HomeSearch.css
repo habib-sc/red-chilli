@@ -1,0 +1,23 @@
+.rc-search-bg {
+    background-image: url('https://i.ibb.co/xYftB20/bannerbackground.png');
+    height: 70vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: 111%;
+}
+
+.rc-home-input-group {
+    width: 450px;
+    height: 40px;
+}
+
+.rc-home-input {
+    position: relative;
+    left: 20px;
+}
+
+.rc-home-button {
+    position: relative;
+    right: 20px;
+}

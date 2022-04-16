@@ -1,9 +1,10 @@
 import React from 'react';
+import HomeSearch from './HomeSearch/HomeSearch';
 
 const Home = () => {
     return (
         <div>
-            Home
+            <HomeSearch></HomeSearch>
         </div>
     );
 };

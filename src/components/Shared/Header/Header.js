@@ -9,16 +9,16 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Link to='/'>
-                        <Navbar.Brand><img src={logo} style={{ 'height': '50px' }} alt="" /></Navbar.Brand>
+                        <img src={logo} style={{ 'height': '50px' }} alt="" />
                     </Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className='d-flex justify-content-end'>
-                        <Nav>
-                            <li class="nav-item">
+                        <Nav className='d-flex align-items-center'>
+                            <li className="nav-item">
                                 <Link className='nav-link' to='/login'>Login</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link className='nav-link' to='/register'>Sign Up</Link>
+                            <li className="nav-item">
+                                <Link className='nav-link' to='/register'><button className='btn btn-danger rounded-pill'>Sign Up</button></Link>
                             </li>
                         </Nav>
                     </Navbar.Collapse>
