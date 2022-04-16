@@ -1,3 +1,9 @@
 body {
     box-sizing: border-box;
 }
+.rc-input-error{
+    color: rgb(245, 10, 10);
+}
+.rc-input-error::before{
+    content: "❌";
+}
